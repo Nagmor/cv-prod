@@ -1,0 +1,58 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.portfolio-btn {
+	background-color: #F39C12;
+	color: #2C3E50;
+	font-weight: bold;
+	transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-btn:hover {
+	color: red;
+	transform: scale(1.1);
+}
+
+.card-portfolio {
+	transition: transform 0.3s ease;
+}
+
+.card-portfolio:hover {
+	transform: scale(1.1);
+}
+
+.navbar-scaling a {
+	transition: transform 0.3s ease, border-radius 0.3s ease;
+	display: inline-block; /* To make sure the transformation applies to the link element properly */
+}
+  
+.navbar-scaling a:hover {
+	transform: scale(1.2);
+	border-radius: 1px;
+}
+
+.bg-portfolio {
+	background-color: #2C3E50;	
+}
+
+.grey-portfolio {
+	color: #BDC3C7 !important
+}
+
+.spotlight-portfolio {
+	text-shadow: -0.5px -0.5px 0 #2C3E50, 0.5px -0.5px 0 #2C3E50, -0.5px 0.5px 0 #2C3E50, 0.5px 0.5px 0 #2C3E50;
+}
+
+.color-portfolio {
+	color: #F39C12;
+}
+
+.hover-element-portfolio {
+	transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-element-portfolio:hover {
+	color: #F39C12;
+	transform: scale(1.1);
+}
